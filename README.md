@@ -25,7 +25,7 @@ DriveAlert is a real-time drowsiness and fatigue detection system designed to mo
 ## 🚀 Installation
 1.  **Clone the repository:**
     ```bash
-    git clone [your-repository-url]
+    git clone [https://github.com/saichethana28/DriveAlert]
     cd DriveAlert
     ```
 2.  **Install the dependencies:**
