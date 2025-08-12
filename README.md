@@ -25,6 +25,30 @@ DriveAlert monitors a driver’s eyes and mouth through a webcam feed to detect 
 - **pyttsx3:** For text-to-speech alerts.
 
 ---
+## 📁 Project Structure
+DriveAlert/
+│
+├── main.py # Main script
+├── demos/
+│ ├── DriveAlert_DemoImage_1.PNG
+│ ├── DriveAlert_DemoImage_2.PNG
+│ └── DriveAlert_DemoVideo.mp4
+├── README.md
+└── requirements.txt # Python dependencies
+
+yaml
+Copy
+Edit
+
+---
+
+## 📋 Features
+- Real-time detection of **drowsiness** and **yawning**
+- Works **offline** (no internet required)
+- **Voice alerts** for better safety
+- Easy to run on any **webcam-enabled device**
+
+---
 
 ## ⚙️ How It Works
 
@@ -50,3 +74,11 @@ pip install opencv-python mediapipe numpy pyttsx3
 # Run the program
 python main.py
 
+Press 'q' to quit the program.
+
+📜 License
+This project is licensed under the MIT License – see the LICENSE file for details.
+
+📬 Contact
+Created by V. Sai Chethana
+📧 Email: saichethanavesireddy@gmail.com
