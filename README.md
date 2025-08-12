@@ -44,14 +44,14 @@ he application will open your webcam. Press q to exit.
 
 👀 Demo
 <p align="center">
-<img src="demos/DriveAlert_DemoImage_1.png" alt="A screenshot showing the 'DROWSINESS ALERT!'" width="600"/>
+<img src="demos/DriveAlert_DemoImage_1.PNG" alt="A screenshot showing the 'DROWSINESS ALERT!'" width="600"/>
 </p>
 <p align="center">
 <i>A screenshot showing the 'DROWSINESS ALERT!' in action.</i>
 </p>
 
 <p align="center">
-<img src="demos/DriveAlert_DemoImage_2.png" alt="A screenshot showing the 'YAWN ALERT!'" width="600"/>
+<img src="demos/DriveAlert_DemoImage_2.PNG" alt="A screenshot showing the 'YAWN ALERT!'" width="600"/>
 </p>
 <p align="center">
 <i>A screenshot showing the 'YAWN ALERT!' in action.</i>
