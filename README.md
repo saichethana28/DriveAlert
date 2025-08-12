@@ -1,60 +1,59 @@
 #😴 DriveAlert
 Real-Time Driver Drowsiness and Yawn Detection System
 
-DriveAlert is a real-time drowsiness and fatigue detection system designed to monitor a driver's face using a webcam. The system uses computer vision to analyze key facial landmarks for signs of fatigue, such as prolonged eye closure and yawning, and provides an immediate audible warning to prevent potential accidents.
+# DriveAlert 🚗💤
 
-***
+**Real-time Driver Drowsiness & Yawning Detection using MediaPipe, OpenCV, and Text-to-Speech.**  
+DriveAlert monitors a driver’s eyes and mouth through a webcam feed to detect signs of sleepiness or fatigue and issues both on-screen and voice alerts.
 
-## 💡 Features
-* **Real-time Drowsiness Detection**: Monitors the user's eyes to detect blinking and prolonged eye closure.
-* **Yawning Detection**: Identifies yawning by analyzing the distance between the upper and lower lip.
-* **Audible Alerts**: Provides voice feedback via a text-to-speech engine to warn the driver.
-* **Performance Monitoring**: Displays real-time Eye Aspect Ratio (EAR) and Mouth Aspect Ratio (MAR) values.
+---
 
-***
+## 📹 Demo
 
-## 🛠️ Tech Stack
-* **Python**: Main programming language.
-* **OpenCV**: For video stream processing.
-* **Mediapipe**: For robust facial landmark detection.
-* **NumPy**: For efficient numerical computations.
-* **pyttsx3**: For text-to-speech alerts.
+<video controls src="demos/DriveAlert_DemoVideo.mp4" style="max-width:100%;height:auto;">
+Your browser does not support the video tag.
+</video>
 
-***
+---
 
-## 🚀 Installation
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/saichethana28/DriveAlert]
-    cd DriveAlert
-    ```
-2.  **Install the dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    ```
+## 📸 Screenshots
 
-***
+![Demo Image 1](demos/DriveAlert_DemoImage_1.PNG)  
+![Demo Image 2](demos/DriveAlert_DemoImage_2.PNG)
 
-## 🏃 Usage
-Run the main script from your terminal:
+---
+
+## 🛠 Tech Stack
+
+- **Python:** Main programming language.  
+- **OpenCV:** For video stream processing.  
+- **MediaPipe:** For robust facial landmark detection.  
+- **NumPy:** For efficient numerical computations.  
+- **pyttsx3:** For text-to-speech alerts.
+
+---
+
+## ⚙️ How It Works
+
+1. **Capture** — The webcam feed is read in real-time using OpenCV.
+2. **Detect Landmarks** — MediaPipe detects facial landmarks (eyes, mouth).
+3. **Calculate EAR & MAR** —  
+   - EAR < threshold → eyes closed for a certain duration → drowsiness alert.  
+   - MAR > threshold → mouth wide open for a certain duration → yawn alert.
+4. **Alert** — Visual and voice alerts are triggered using pyttsx3.
+
+---
+
+## 🚀 Installation & Usage
+
 ```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/DriveAlert.git
+cd DriveAlert
+
+# Install dependencies
+pip install opencv-python mediapipe numpy pyttsx3
+
+# Run the program
 python main.py
 
-he application will open your webcam. Press q to exit.
-
-👀 Demo
-<p align="center">
-<img src="demos/DriveAlert_DemoImage_1.PNG" alt="A screenshot showing the 'DROWSINESS ALERT!'" width="600"/>
-</p>
-<p align="center">
-<i>A screenshot showing the 'DROWSINESS ALERT!' in action.</i>
-</p>
-
-<p align="center">
-<img src="demos/DriveAlert_DemoImage_2.PNG" alt="A screenshot showing the 'YAWN ALERT!'" width="600"/>
-</p>
-<p align="center">
-<i>A screenshot showing the 'YAWN ALERT!' in action.</i>
-</p>
-
-A short video demonstration of the application:
