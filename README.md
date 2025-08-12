@@ -1,6 +1,3 @@
-#😴 DriveAlert
-Real-Time Driver Drowsiness and Yawn Detection System
-
 # DriveAlert 🚗💤
 
 **Real-time Driver Drowsiness & Yawning Detection using MediaPipe, OpenCV, and Text-to-Speech.**  
