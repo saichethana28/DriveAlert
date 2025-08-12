@@ -7,11 +7,7 @@ DriveAlert monitors a driver’s eyes and mouth through a webcam feed to detect 
 
 ## 📹 Demo
 
-<video controls src="demos/DriveAlert_DemoVideo.mp4" style="max-width:100%;height:auto;">
-Your browser does not support the video tag.
-</video>
-
----
+[![Watch the Demo](demos/demo-thumb.png)](https://youtu.be/RvffPoNGilg)
 
 ## 📸 Screenshots
 
