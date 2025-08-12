@@ -52,20 +52,25 @@ Edit
 
 ## 🚀 Installation & Usage
 
-```bash
+
 # Clone the repository
-git clone https://github.com/saichethana28/DriveAlert.git
-cd DriveAlert
-
+ ```bash
+ git clone https://github.com/saichethana28/DriveAlert.git
+ cd DriveAlert
+ ```
 # Install dependencies
+```bash
 pip install opencv-python mediapipe numpy pyttsx3
-
+ ```
 # Run the program
+ ```
 python main.py
+ ```
 
 Press 'q' to quit the program.
 ---
 ## 📜 License
+
 This project is licensed under the MIT License – see the LICENSE file for details.
 
 ## 📬 Contact
