@@ -41,7 +41,7 @@ DriveAlert monitors a driver’s eyes and mouth through a webcam feed to detect 
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/DriveAlert.git
+git clone https://github.com/saichethana28/DriveAlert.git
 cd DriveAlert
 
 # Install dependencies
