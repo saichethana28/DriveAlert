@@ -25,9 +25,7 @@ DriveAlert monitors a driver’s eyes and mouth through a webcam feed to detect 
 - **pyttsx3:** For text-to-speech alerts.
 
 
-yaml
-Copy
-Edit
+
 
 ---
 
